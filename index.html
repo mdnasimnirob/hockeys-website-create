@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,9 +21,95 @@
 </head>
 <body class="font-manrope">
     <header>
-            <nav>
+        <!-- navbar  -->
+            <div>
+              <div class="navbar mb-12">
+                  <div class="navbar-start">
+                  <div class="dropdown">
+                      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <div>
+                              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                          </div>
+                      </div>
+                      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a class="text-[#FF4240] text-lg font-bold">Home</a></li>
+                      <li> 
+                          <a class=" text-lg font-bold">About</a>
+                          <ul class="p-2">
+                          
+                          </ul>
+                      </li>
+                      <li>
+                          <a class=" text-lg font-bold">Pages</a>
+                          <ul class="p-2">
+                        
+                          </ul>
+                      </li>
+                      <li>
+                          <a class=" text-lg font-bold">Blog</a>
+                          <ul class="p-2">
+                          
+                          </ul>
+                      </li>
+                      <li>
+                          <a class=" text-lg font-bold">Contact</a>
+                         
+                          </ul>
+                      </li>
+                      </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl">Hockey<span class="text-[#FF4240] text-3xl font-extrabold">’</span>s</a>
+                  </div>
+                  <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                      <li><a class="text-[#FF4240] text-lg font-bold">Home</a></li>
+                      <li>
+                      <details>
+                          <summary class=" text-lg font-bold">About</summary>
+                          <ul class="p-2">
+                          
+                          </ul>
+                      </details>
+                      </li>
+                      <li>
+                      <details>
+                          <summary class=" text-lg font-bold">Pages</summary>
+                          <ul class="p-2">
+                          
+                          </ul>
+                      </details>
+                      </li>
+                      <li>
+                      <details>
+                          <summary class=" text-lg font-bold">Blog</summary>
+                          <ul class="p-2">
+                          
+                          </ul>
+                      </details>
+                      </li>
+                      <li>
+                      <details>
+                          <summary class=" text-lg font-bold">Contact</summary>
+                          <ul class="p-2">
+                        
+                          </ul>
+                      </details>
+                      </li>
+                  </ul>
+                  </div>
+                  <div class="navbar-end">
+                  <a class="btn py-4 px-5 bg-[#FF4240] "><h3 class="text-blue-50  font-bold text-xl items-center justify-center">Get Ticket</h3></a>
+                  </div>
+              </div>
+  
 
-            </nav>
+
+
+
+
+
+
+
 
             <div class="container mx-auto">
                 <div class="carousel w-full">
@@ -81,7 +167,7 @@
                 <p class="text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
             <div class="text-center">
-                <div class="radial-progress text-[#E7E7E8]" style="--value:90;" role="progressbar">90%</div>
+                <div class="radial-progress text-[#dbaf4f]" style="--value:90;" role="progressbar">90%</div>
                 <h4 class="text-xl mt-5 mb-4">Senior Player</h4>
                 <p class="text-base">Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
@@ -147,108 +233,161 @@
 
                       <div class="grid gap-6 sm:grid-cols-1 lg:grid-cols-2">
                                <!-- farst product -->
-                          <div class="flex flex-row bg-white rounded-xl  ">
-                            <div><img class="rounded-xl w-auto m-5 " src="Images/product1.png" alt=""></div>
-                            <div class="text-center w-auto ml-5 my-6 mr-11">
-                              <div>
+                          <div class="flex sm:flex-col lg:flex-row items-center w-full bg-white rounded-xl ">
+                          
+                              <div class="flex sm:flex-col lg:flex-row"><img class="rounded-xl w-auto m-5 " src="Images/product1.png" alt=""></div>
+                            <div class="text-start w-auto ml-5 my-6 mr-11">
+                              <div class="">
+                                 <div class="flex flex-row gap-4 mb-3">
+                                  <img src="Images/star.png" alt=""><span class="text-lg font-medium text-[#39396398]">5.0</span><img src="Images/eye.png" alt=""><span class="text-lg font-medium text-[#39396398]">20</span><img src="Images/heard.png" alt=""><span class="text-lg font-medium text-[#39396398]">200</span>
+                                 </div>
+                                
                                 <h3 class="font-extrabold text-black text-xl">World Cup Flags Football</h3>
-                                <p class="text-lg text-[#131318]">this is a world cup football hoodei</p>
+                                <p class="text-lg text-[#131318] mt-3">this is a world cup football hoodei</p>
                               </div>
-                              <div class="flex flex-row gap-5">
-                                <h4 class="text-lg text-red-800 font-extrabold">Price - $22.00</h4>
-                                <p class="text-lg font-medium text-black"> Delivery Fee : Free</p>
+                              <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-5 mt-4">
+                                <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+                                
+                                <div class="flex flex-row gap-2 ">
+                                 <div> <img class="w-full" src="Images/delivary.png" alt=""></div>
+                                  <div><p class="sm:text-sm text-lg font-medium text-center p-1 text-[#39396398]">Delivery Fee : Free</p></div>
+          
+                                </div>
                               </div>
-
-
                             </div>
+                            
                           </div>
 
                           <!-- second -->
-                          <div class="flex flex-row bg-white rounded-xl  ">
-                            <div><img class="rounded-xl w-auto m-5 " src="Images/product2.png" alt=""></div>
-                            <div class="text-center w-auto ml-5 my-6 mr-10">
-                              <div>
-                                <h3 class="font-extrabold text-black text-xl">World Cup Flags Football</h3>
-                                <p class="text-lg text-[#131318]">this is a world cup football hoodei</p>
+                          <div class="flex sm:flex-col lg:flex-row items-center w-full bg-white rounded-xl ">
+                          
+                            <div class="flex sm:flex-col lg:flex-row"><img class="rounded-xl w-auto m-5 " src="Images/product2.png" alt=""></div>
+                          <div class="text-start w-auto ml-5 my-6 mr-11">
+                            <div class="">
+                               <div class="flex flex-row gap-4 mb-3">
+                                <img src="Images/star.png" alt=""><span class="text-lg font-medium text-[#39396398]">5.0</span><img src="Images/eye.png" alt=""><span class="text-lg font-medium text-[#39396398]">20</span><img src="Images/heard.png" alt=""><span class="text-lg font-medium text-[#39396398]">200</span>
+                               </div>
+                              
+                              <h3 class="font-extrabold text-black text-xl">World Cup Flags Football</h3>
+                              <p class="text-lg text-[#131318] mt-3">this is a world cup football hoodei</p>
+                            </div>
+                            <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-5 mt-4">
+                              <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+                              
+                              <div class="flex flex-row gap-2 ">
+                               <div> <img class="w-full" src="Images/delivary.png" alt=""></div>
+                                <div><p class="sm:text-sm text-lg font-medium text-center p-1 text-[#39396398]">Delivery Fee : Free</p></div>
+        
                               </div>
-                              <div class="flex flex-row gap-5">
-                                <h4 class="text-lg text-red-800 font-extrabold">Price - $22.00</h4>
-                                <p class="text-lg font-medium text-black"> Delivery Fee : Free</p>
-                              </div>
-
-
                             </div>
                           </div>
+                          
+                        </div>
 
                           <!-- third -->
-                          <div class="flex flex-row bg-white rounded-xl  ">
-                            <div><img class="rounded-xl w-auto m-5 " src="Images/product3.png" alt=""></div>
-                            <div class="text-center w-auto ml-5 my-6 mr-11">
-                              <div>
-                                <h3 class="font-extrabold text-black text-xl">World Cup Flags Football</h3>
-                                <p class="text-lg text-[#131318]">this is a world cup football hoodei</p>
+                          <div class="flex sm:flex-col lg:flex-row items-center w-full bg-white rounded-xl ">
+                          
+                            <div class="flex sm:flex-col lg:flex-row"><img class="rounded-xl w-auto m-5 " src="Images/product3.png" alt=""></div>
+                          <div class="text-start w-auto ml-5 my-6 mr-11">
+                            <div class="">
+                               <div class="flex flex-row gap-4 mb-3">
+                                <img src="Images/star.png" alt=""><span class="text-lg font-medium text-[#39396398]">5.0</span><img src="Images/eye.png" alt=""><span class="text-lg font-medium text-[#39396398]">20</span><img src="Images/heard.png" alt=""><span class="text-lg font-medium text-[#39396398]">200</span>
+                               </div>
+                              
+                              <h3 class="font-extrabold text-black text-xl">World Cup Flags Football</h3>
+                              <p class="text-lg text-[#131318] mt-3">this is a world cup football hoodei</p>
+                            </div>
+                            <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-5 mt-4">
+                              <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+                              
+                              <div class="flex flex-row gap-2 ">
+                               <div> <img class="w-full" src="Images/delivary.png" alt=""></div>
+                                <div><p class="sm:text-sm text-lg font-medium text-center p-1 text-[#39396398]">Delivery Fee : Free</p></div>
+        
                               </div>
-                              <div class="flex flex-row gap-5">
-                                <h4 class="text-lg text-red-800 font-extrabold">Price - $22.00</h4>
-                                <p class="text-lg font-medium text-black"> Delivery Fee : Free</p>
-                              </div>
-
-
                             </div>
                           </div>
+                          
+                        </div>
 
                           <!-- fourth -->
-                          <div class="flex flex-row bg-white rounded-xl  ">
-                            <div><img class="rounded-xl w-auto m-5 " src="Images/product4.png" alt=""></div>
-                            <div class="text-center w-auto ml-5 my-6 mr-11">
-                              <div>
-                                <h3 class="font-extrabold text-black text-xl">World Cup Flags Football</h3>
-                                <p class="text-lg text-[#131318]">this is a world cup football hoodei</p>
+                          <div class="flex sm:flex-col lg:flex-row items-center w-full bg-white rounded-xl ">
+                          
+                            <div class="flex sm:flex-col lg:flex-row"><img class="rounded-xl w-auto m-5 " src="Images/product4.png" alt=""></div>
+                          <div class="text-start w-auto ml-5 my-6 mr-11">
+                            <div class="">
+                               <div class="flex flex-row gap-4 mb-3">
+                                <img src="Images/star.png" alt=""><span class="text-lg font-medium text-[#39396398]">5.0</span><img src="Images/eye.png" alt=""><span class="text-lg font-medium text-[#39396398]">20</span><img src="Images/heard.png" alt=""><span class="text-lg font-medium text-[#39396398]">200</span>
+                               </div>
+                              
+                              <h3 class="font-extrabold text-black text-xl">World Cup Flags Football</h3>
+                              <p class="text-lg text-[#131318] mt-3">this is a world cup football hoodei</p>
+                            </div>
+                            <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-5 mt-4">
+                              <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+                              
+                              <div class="flex flex-row gap-2 ">
+                               <div> <img class="w-full" src="Images/delivary.png" alt=""></div>
+                                <div><p class="sm:text-sm text-lg font-medium text-center p-1 text-[#39396398]">Delivery Fee : Free</p></div>
+        
                               </div>
-                              <div class="flex flex-row gap-5">
-                                <h4 class="text-lg text-red-800 font-extrabold">Price - $22.00</h4>
-                                <p class="text-lg font-medium text-black"> Delivery Fee : Free</p>
-                              </div>
-
-
                             </div>
                           </div>
+                          
+                        </div>
 
                           <!-- fifth -->
-                          <div class="flex flex-row bg-white rounded-xl  ">
-                            <div><img class="rounded-xl w-auto m-5 " src="Images/product5 (2).png" alt=""></div>
-                            <div class="text-center w-auto ml-5 my-6 mr-11">
-                              <div>
-                                <h3 class="font-extrabold text-black text-xl">World Cup Flags Football</h3>
-                                <p class="text-lg text-[#131318]">this is a world cup football hoodei</p>
+                          <div class="flex sm:flex-col lg:flex-row items-center w-full bg-white rounded-xl ">
+                          
+                            <div class="flex sm:flex-col lg:flex-row"><img class="rounded-xl w-auto m-5 " src="Images/product5 (2).png" alt=""></div>
+                          <div class="text-start w-auto ml-5 my-6 mr-11">
+                            <div class="">
+                               <div class="flex flex-row gap-4 mb-3">
+                                <img src="Images/star.png" alt=""><span class="text-lg font-medium text-[#39396398]">5.0</span><img src="Images/eye.png" alt=""><span class="text-lg font-medium text-[#39396398]">20</span><img src="Images/heard.png" alt=""><span class="text-lg font-medium text-[#39396398]">200</span>
+                               </div>
+                              
+                              <h3 class="font-extrabold text-black text-xl">World Cup Flags Football</h3>
+                              <p class="text-lg text-[#131318] mt-3">this is a world cup football hoodei</p>
+                            </div>
+                            <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-5 mt-4">
+                              <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+                              
+                              <div class="flex flex-row gap-2 ">
+                               <div> <img class="w-full" src="Images/delivary.png" alt=""></div>
+                                <div><p class="sm:text-sm text-lg font-medium text-center p-1 text-[#39396398]">Delivery Fee : Free</p></div>
+        
                               </div>
-                              <div class="flex flex-row gap-5">
-                                <h4 class="text-lg text-red-800 font-extrabold">Price - $22.00</h4>
-                                <p class="text-lg font-medium text-black"> Delivery Fee : Free</p>
-                              </div>
-
-
                             </div>
                           </div>
+                          
+                        </div>
 
                           <!-- six -->
-                          <div class="flex flex-row bg-white rounded-xl  ">
-                            <div><img class="rounded-xl w-auto m-5 " src="Images/product6.png" alt=""></div>
-                            <div class="text-center w-auto ml-5 my-6 mr-11">
-                              <div>
-                                <h3 class="font-extrabold text-black text-xl">World Cup Flags Football</h3>
-                                <p class="text-lg text-[#131318]">this is a world cup football hoodei</p>
+                          <div class="flex sm:flex-col lg:flex-row items-center w-full bg-white rounded-xl ">
+                          
+                            <div class="flex sm:flex-col lg:flex-row"><img class="rounded-xl w-auto m-5 " src="Images/product6.png" alt=""></div>
+                          <div class="text-start w-auto ml-5 my-6 mr-11">
+                            <div class="">
+                               <div class="flex flex-row gap-4 mb-3">
+                                <img src="Images/star.png" alt=""><span class="text-lg font-medium text-[#39396398]">5.0</span><img src="Images/eye.png" alt=""><span class="text-lg font-medium text-[#39396398]">20</span><img src="Images/heard.png" alt=""><span class="text-lg font-medium text-[#39396398]">200</span>
+                               </div>
+                              
+                              <h3 class="font-extrabold text-black text-xl">World Cup Flags Football</h3>
+                              <p class="text-lg text-[#131318] mt-3">this is a world cup football hoodei</p>
+                            </div>
+                            <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-5 mt-4">
+                              <h3 class="text-lg text-[#FF4240] font-extrabold">Price - $22.00</h3>
+                              
+                              <div class="flex flex-row gap-2 ">
+                               <div> <img class="w-full" src="Images/delivary.png" alt=""></div>
+                                <div><p class="sm:text-sm text-lg font-medium text-center p-1 text-[#39396398]">Delivery Fee : Free</p></div>
+        
                               </div>
-                              <div class="flex flex-row gap-5">
-                                <h4 class="text-lg text-red-800 font-extrabold">Price - $22.00</h4>
-                                <p class="text-lg font-medium text-black"> Delivery Fee : Free</p>
-                              </div>
-
-
                             </div>
                           </div>
-                      </div>
-                      
+                          
+                        </div>
+                        
             </section>
 
 
@@ -260,36 +399,113 @@
                 <p class="font-medium text-base text-[#131318] mt-6">It was a pleasure meeting you. I'd love to stay in touch — here is my visit card.” “I'd like to further discuss this <br> with you — do you mind giving me your contact information</p>
               </div> 
               <!-- flex sm:flex-col md:flex-col lg:flex-row -->
-              <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-                <div class="flex sm:flex-col flex-col bg-[#fff]">
-                    <div class="rounded-2xl border-4 pt-6 pl-6 pb-6 pr-24 bg-[#d4ddc2] border-white p4"><img src="Images/phone-number.png" alt="">
-                      <h3>Phone Number <br>(+880) 1757-706-811</h3>
+              <!-- <div class="grid gap-3 sm:grid-cols-1 md:grid-cols-1 grid-cols-3"> -->
+                  <div class="flex gap-6 sm:flex-col flex-col lg:flex-row justify-between sm:m-0 ">
+                  <div class="w-full">
+                    <div class=" flex gap-3 sm:flex-col flex-col lg:flex-col bg-[#fff] ">
+                      <div class="sm:w-full rounded-2xl border-4 pt-6 pl-6 pb-6 pr-24 bg-[#d4ddc2] border-white p4"><img src="Images/phone-number.png" alt="">
+                        <h3>Phone Number <br>(+880) 1757-706-811</h3>
+                        </div>
+                      <div class="rounded-2xl border-4 pt-6 pl-6 pb-6 pr-24 bg-[#c7d4b4]"><img src="Images/email.png" alt="">
+                      <H3>Email <br>hockeys@support.com</H3>
                       </div>
-                    <div class="rounded-2xl border-4 pt-6 pl-6 pb-6 pr-24 bg-[#c7d4b4]"><img src="Images/email.png" alt="">
-                    <H3>Email <br>hockeys@support.com</H3>
-                    </div>
-                    <div class="rounded-2xl border-4 pt-6 pl-6 pb-6 pr-24 bg-[#d4e0c1]"><img src="Images/location.png" alt="">
-                   <h3>Location <br>152/1 Rangpur Wireless Gate</h3>
-                    </div>
-                </div>
-                
-                
-                
-               
-               
+                      <div class="rounded-2xl border-4 pt-6 pl-6 pb-6 pr-24 bg-[#d4e0c1]"><img src="Images/location.png" alt="">
+                    <h3>Location <br>152/1 Rangpur Wireless Gate</h3>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="w-full">
+                      <div class="grid gap-3 grid-cols-1 lg:grid-cols-2">
+                        <div class="items-center">
+                          <div>
+                            <h3 class="lg:mb-4 ">Your Name</h3>
+                            <input class="bg-white rounded-xl text-[#191924] py-5 pl-5    lg:pr-15 text-lg font-normal border-[#191924]" type="text" name="" id="" placeholder="Enter Your Name">   
+                          </div>
+                          <div>
+                            <h3 class="lg:mb-4">Your Email</h3>
+                            <input class="bg-white rounded-xl text-[#191924] py-5 pl-5  lg:pr-16 text-lg font-normal border-[#191924]" type="email" name="" id="" placeholder="Enter Your Email">   
+                          </div>
+                        </div>
+                        <div class="items-center">
+                          <div>
+                            <h3 class="lg:mb-4">Your Subject</h3>
+                            <input class="bg-white rounded-xl text-[#191924] py-5 pl-5 lg:pr-16 text-lg font-normal border-[#191924]" type="text" name="" id="" placeholder="Enter Your Subject">   
+                          </div>
+                          <div>
+                            <h3 class="lg:mb-4">Your Number</h3>
+                            <input class="bg-white rounded-xl text-[#191924] py-5 pl-5 lg:pr-16 text-lg font-normal border-[#191924] " type="number" name="" id="" placeholder="Enter Your Number">   
+                          </div>
+                        </div>
+                        <div class="col-span-2 items-center">
+                          <h3 class="mb-4">Message</h3>
+                          <input class="bg-white rounded-xl w-full text-[#191924] py-5 pl-5 pb-24 text-lg font-normal border-[#191924] " type="text" name="" id="" placeholder="Enter Your Message">   
+                        </div>
+                        <div class="col-span-2">
+                          <a href=""><button class="py-4 w-full rounded-xl px-6 bg-[#FF4240]">Send Message</button></a>
+                        </div>
+                      </div>
+                    
+                  </div>
                 <div>
-                    <input type="text" name="" id="" placeholder="Enter Your Name">
-                    <input type="email" name="" id="" placeholder="Enter Your Email">
-                    <input type="text" name="" id="" placeholder="Enter Your Subject">
-                    <input type="number" name="" id="" placeholder="Enter Your Number">
-                </div>
+            </section>
+
+
+            <section class="my-28">
+              <div class="text-center flex flex-col">
+                <h3 class="text-4xl font-extrabold text-[#131318] ">Social Media</h3>
+                <a class="m-auto mt-4" href="Images/Social.png"><img src="Images/Social.png" alt=""></a>
               </div>
             </section>
+
+
     </main>
+  
 
-
-    <footer>
-
+    <footer class="footer p-10 bg-base-200 text-base-content py-24 px-28 w-full bg-[#131318] text-white">
+      <aside class=" ">
+        <div class="flex flex-col">
+         <div>
+          <h4 class="text-white text-2xl  font-extrabold justify-start lg:mb-4 ">Get In Touch</h3>
+          
+          <p class="text-white mb-6 mt-6">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p></div>
+        </div>
+        <div class="flex gap-2 text-center ">
+          <img src="Images/Frame.png" alt="">
+          <p class="mb4">hockeys@support.com</p>
+        </div>
+        <div class="flex gap-1">
+          <img src="Images/Frame (1).png" alt="">
+          <p>(+62) 123-321-543</p>
+        </div>
+      </aside> 
+      <div class="grid lg:grid-rows-1 grid-cols-2  gap-24 pb-11 w-full">
+        <div><nav>
+           <h4 class=" text-white font-bold text-xl" >Company</h4> 
+          <a class="link link-hover ">About us</a>  <br>
+          <a class="link link-hover ">Design</a>   <br>
+          <a class="link link-hover">Careers</a>   <br>
+          <a class="link link-hover">News & Article</a>  <br>
+          <a class="link link-hover">Legal Notice</a>   <br>
+          
+        </nav> </div>
+        <div><nav>
+          <h4 class=" text-white font-bold text-xl" >Support</h4>
+          <a class="link link-hover">Help Center</a> <br>
+          <a class="link link-hover">FAQ</a> <br>
+          <a class="link link-hover">Ticket Suppor</a> <br>
+          <a class="link link-hover">Contact Us</a> <br>
+        </nav></div>
+      </div> 
+      <nav>
+        <div class="col-span-2 lg:justify-start items-start w-full">
+          <h4 class=" text-white font-bold text-xl w-full" >Services</h4>
+        <a class="link link-hover">Academy</a> <br>
+        <a class="link link-hover">Group Lesson</a> <br>
+        <a class="link link-hover">Private Lesson</a> <br>
+        <a class="link link-hover">Hockeys for kids</a> <br>
+        <a class="link link-hover">Hockeys for Adult</a> <br>
+        </div>
+      </nav>
     </footer>
     
 </body>
